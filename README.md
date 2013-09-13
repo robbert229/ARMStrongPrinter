@@ -3,7 +3,7 @@ ARMStrongPrinter
 
 The first ARM specific/native 3d printing firmware that I know of ( Its not a port ). It is currently capable of parsing gcode and turning it into code that an ARM fiq can use to move the stepper motors. It also has the ability to compress the data. Doing so significantly reduces the file sizes.
 
-Currently I have been working on this with the CFA10049 in mind. The 10049 is a Linux SOM that is freakin awesome. The 10049 has speeds beyond standard Arduinos and is capable of standalone operation. It is capable of surfing thingiverse, picking an stl, slicing it, and then printing it without any other machines.
+Currently I have been working on this with the CFA10049 in mind. The 10049 is a powerful Linux SOM. The 10049 has speeds beyond standard Arduinos and is capable of standalone operation. It is capable of surfing thingiverse, picking an stl, slicing it, and then printing it without any other machines.
 
 This tool is almost finished. It can create all of the fiq code required to print, but lacks the ability to load that data into the fiq. The tool that loads the data into the fiq is almost finished, but has issues with larger files. 
 
