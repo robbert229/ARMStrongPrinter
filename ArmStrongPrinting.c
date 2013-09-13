@@ -1,4 +1,22 @@
 
+/*
+    ARMStrongPrinter is a nascent and native 3d printer firmware that is designed to work with ARM SOMs.
+    Copyright (C) 2013  John Rowley (johnrowleyster@gmail.com)
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
 /* Revision 0.1 */
 /* The main focus of the program is to interpret g0 and g1, both of which are the core printing functions.*/
 /* The program starts by opening test.gcode. This file contains gcode to print. I have designed my */
